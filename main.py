@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from objects.Home.Room import Room
 from objects.Subscription.Plan import SubscriptionPlan
 from colorama import Fore, Back, Style
@@ -50,6 +49,3 @@ for home in homes:
         print('=====================================================')
 
 
-=======
-print('Hello World')
->>>>>>> origin/main
