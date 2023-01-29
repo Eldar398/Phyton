@@ -12,7 +12,7 @@ class SubscriptionPlan:
         self.address = address
 
     def check_corrent_type(self, current_type):
-        subscription_types = SubscriptionTypes.subscriptnTypes
+        subscription_types = SubscriptionTypes.subscriptionTypes
         for subscription_type in subscription_types:
             if subscription_type == current_type:
                 return True
