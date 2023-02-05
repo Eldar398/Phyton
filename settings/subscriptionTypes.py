@@ -1,3 +1,3 @@
 class SubscriptionTypes:
 
-    subscriptnTypes = ['month', 'year', 'week']
+    subscriptionTypes = ['month', 'year', 'week']
