@@ -4,6 +4,7 @@ from objects.Subscription.Plan import SubscriptionPlan
 from objects.Family.Family import Family
 from colorama import Fore, Back, Style
 import requests
+import random
 
 
 room_bathroom = Room('Street, 5a', 'bathroom')
@@ -104,6 +105,7 @@ for get_dog_item in range(1, 2):
     resultDog = requests.get('https://dog.ceo/api/breeds/image/random')
     resultText = resultDog.json()
     print(resultText['message'])
+    print(random.randrange(10, 100))
     dogs = dogs + '''
     <div>
       <img src="''' + resultText['message']+ '''" /></div>'''
